@@ -12,6 +12,8 @@ choose latest '.exe' file and execute. then launch the UCRT shell (other will no
 
 then go to the project folder and do sh ./compil_win.sh
 
+NOTE : NO, IT WILL NOT WORK ONLY WITH THE EXE, Shell only (for now) maybe i'll add the libraries after, i'll see what i can do.
+
 # Controls
 UP: Turn Blocks
 LEFT: Go left
@@ -23,6 +25,19 @@ ESC: Menu
 Commands Inside Menu:
 R: Reset Game
 Q: Quit
+
+# Known bugs
+Sometimes animation can be laggy (as i'm starting into c animations) so if blocks is not orientated as it should be just close the game and restart using ./Tetoris or ./Tetoris.exe for windows.
+
+# FAQ
+
+Q: Will it be updated ?
+
+A: Yes, but i don't really see what can i add, if you add ideas i'm good to go
+
+Q: Will you add original song ?
+
+A: Maybe, i'll see if i can as the song itself is made on Synthesizer V, it should be no license
 
 # Contributions
 
