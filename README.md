@@ -12,6 +12,18 @@ choose latest '.exe' file and execute. then launch the UCRT shell (other will no
 
 then go to the project folder and do sh ./compil_win.sh
 
+# Controls
+UP: Turn Blocks
+LEFT: Go left
+RIGHT: Go right
+Down: blocks fall faster
+M: disable music =(
+ESC: Menu
+
+Commands Inside Menu:
+R: Reset Game
+Q: Quit
+
 # Contributions
 
 Developer : Me
