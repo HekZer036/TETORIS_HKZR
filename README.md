@@ -43,6 +43,6 @@ A: Maybe, i'll see if i can as the song itself is made on Synthesizer V, it shou
 
 Developer : Me
 
-Music スドーゴージ
+Music スドーゴージ - TETORIS 8-Bit Chiptuned
 
 Original idea : 柊マグネタイト - SV TETORIS Project
