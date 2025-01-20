@@ -39,7 +39,7 @@ Q: Will you add original song ?
 
 A: Maybe, i'll see if i can as the song itself is made on Synthesizer V, it should be no license
 
-# Contributions
+# Credits
 
 Developer : Me
 
