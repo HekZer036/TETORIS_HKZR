@@ -10,7 +10,10 @@ To run on Linux:
 
 1. Uncompress
 
-2. go in a terminal and type 'sudo apt install gcc libsdl2-dev libsdl2-mixer-dev libsdl2-ttf-dev libsdl2-image-dev'
+2. go in a terminal and type 
+```sh
+sudo apt install gcc libsdl2-dev libsdl2-mixer-dev libsdl2-ttf-dev libsdl2-image-dev
+```
 
 3. Launch using terminal './TETORIS' or just click on the file if you can.
 
