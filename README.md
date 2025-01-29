@@ -32,7 +32,8 @@ M: disable music =(
 
 ESC: Menu
 
-Commands Inside Menu:
+
+COMMANDS INSIDE MENU :
 
 R: Reset Game
 
