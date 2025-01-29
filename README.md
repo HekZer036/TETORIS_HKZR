@@ -4,9 +4,10 @@ This Game is a Tetris-like game i made in C for a school project. it based on th
 
 # Run
 
-To run on Windows just uncompress and launch TETORIS.exe and the game will launch.
+## Windows 
+just uncompress and launch TETORIS.exe and the game will launch.
 
-To run on Linux:
+## Linux
 
 1. Uncompress
 
