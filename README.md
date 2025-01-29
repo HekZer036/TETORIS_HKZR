@@ -40,7 +40,7 @@ R: Reset Game
 Q: Quit
 
 # Known bugs
-Sometimes animation can be laggy (as i'm starting into c animations) so if blocks is not orientated as it should be just close the game and restart using ./Tetoris or ./Tetoris.exe for windows.
+Sometimes animation can be laggy (as i'm starting into c animations) so if blocks is not orientated as it should be just close the game and restart the game.
 
 # FAQ
 
