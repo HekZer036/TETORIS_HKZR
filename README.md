@@ -16,7 +16,7 @@ just uncompress and launch TETORIS.exe and the game will launch.
 sudo apt install gcc libsdl2-dev libsdl2-mixer-dev libsdl2-ttf-dev libsdl2-image-dev
 ```
 
-3. Launch using terminal './TETORIS' or just click on the file if you can.
+3. Launch using terminal ```sh ./TETORIS``` or just click on the file if you can.
 
 # Controls
 UP: Turn Blocks
