@@ -19,11 +19,17 @@ sudo apt install gcc libsdl2-dev libsdl2-mixer-dev libsdl2-ttf-dev libsdl2-image
 3. Launch using terminal ```./TETORIS``` or just click on the file if you can.
 
 # Controls
+
 UP: Turn Blocks
+
 LEFT: Go left
+
 RIGHT: Go right
+
 Down: blocks fall faster
+
 M: disable music =(
+
 ESC: Menu
 
 Commands Inside Menu:
