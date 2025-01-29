@@ -27,7 +27,9 @@ M: disable music =(
 ESC: Menu
 
 Commands Inside Menu:
+
 R: Reset Game
+
 Q: Quit
 
 # Known bugs
