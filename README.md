@@ -2,17 +2,17 @@
 
 This Game is a Tetris-like game i made in C for a school project. it based on the TETORIS song by 柊マグネタイト. i love it so i made my game based on this. Enjoy !
 
-# Build & Run
+# Run
 
-to compile on linux just do sh ./compil.sh and it will compile.
+To run on Windows just uncompress and launch TETORIS.exe and the game will launch.
 
-as for windows, install MSYS2 here : https://github.com/msys2/msys2-installer/releases
+To run on Linux:
 
-choose latest '.exe' file and execute. then launch the UCRT shell (other will not work with the file i made)
+1. Uncompress
 
-then go to the project folder and do sh ./compil_win.sh
+2. go in a terminal and type 'sudo apt install gcc libsdl2-dev libsdl2-mixer-dev libsdl2-ttf-dev libsdl2-image-dev'
 
-NOTE : NO, IT WILL NOT WORK ONLY WITH THE EXE, Shell only (for now) maybe i'll add the libraries after, i'll see what i can do.
+3. Launch using terminal './TETORIS' or just click on the file if you can.
 
 # Controls
 UP: Turn Blocks
@@ -33,11 +33,7 @@ Sometimes animation can be laggy (as i'm starting into c animations) so if block
 
 Q: Will it be updated ?
 
-A: Yes, but i don't really see what can i add, if you add ideas i'm good to go
-
-Q: Will you add original song ?
-
-A: Maybe, i'll see if i can as the song itself is made on Synthesizer V, it should be no license
+A: Yes, but i don't really see what can i add, if you have ideas i'm good to go for it.
 
 # Credits
 
