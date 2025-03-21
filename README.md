@@ -1,3 +1,5 @@
+[![CSS](https://img.shields.io/badge/C-3-blue)](https://en.wikipedia.org/wiki/C_(programming_language))
+
 # TETORIS: The Game
 
 This Game is a Tetris-like game i made in C for a school project. it based on the TETORIS song by 柊マグネタイト. i love it so i made my game based on this. Enjoy !
