@@ -1,4 +1,4 @@
-[![CSS](https://img.shields.io/badge/C-3-blue)](https://en.wikipedia.org/wiki/C_(programming_language))
+[![CSS](https://img.shields.io/badge/C-blue)](https://en.wikipedia.org/wiki/C_(programming_language))
 
 # TETORIS: The Game
 
