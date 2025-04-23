@@ -4,6 +4,10 @@
 
 This Game is a Tetris-like game i made in C for a school project. it based on the TETORIS song by 柊マグネタイト. i love it so i made my game based on this. Enjoy !
 
+# Build it (Linux or MSYS2 on Windows)
+
+To build it yourself just run ``` ./compil.sh ``` it will autocompile itself into 'tetoris' or 'teroris.exe' (linux or windows (MSYS2))
+
 # Run
 
 ## Windows 
@@ -49,6 +53,10 @@ Sometimes animation can be laggy (as i'm starting into c animations) so if block
 Q: Will it be updated ?
 
 A: Yes, but i don't really see what can i add, if you have ideas i'm good to go for it.
+
+Q: Can i edit/fork/republish this code ?
+
+A: As it's MIT License, Yes you can. but it would be great if you credit me. so just add in your README or somewhere : 'Copyright (c) 2025 HekZer036' or 'Original Author : HekZer036'
 
 # Credits
 
