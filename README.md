@@ -1,8 +1,10 @@
-[![CSS](https://img.shields.io/badge/C-blue)](https://en.wikipedia.org/wiki/C_(programming_language))
+[![C](https://img.shields.io/badge/C-blue)](https://en.wikipedia.org/wiki/C_(programming_language))
 
 # TETORIS: The Game
 
 This Game is a Tetris-like game i made in C for a school project. it based on the TETORIS song by 柊マグネタイト. i love it so i made my game based on this. Enjoy !
+
+[Click Here](https://www.youtube.com/watch?v=3LIri5EZoY4) to see a video of the game. (video is in french, but it's just globally says the controls)
 
 # Build it (Linux or MSYS2 on Windows)
 
@@ -62,6 +64,6 @@ A: As it's MIT License, Yes you can. but it would be great if you credit me. so 
 
 Developer : Me
 
-Music スドーゴージ - TETORIS 8-Bit Chiptuned
+Music : [Sudo Goji VGM - TETORIS 8-Bit Chiptuned](https://www.youtube.com/watch?v=t5DS7ha_evs)
 
-Original idea : 柊マグネタイト - SV TETORIS Project
+Original idea : [柊マグネタイト - SV TETORIS Project](https://www.youtube.com/watch?v=Soy4jGPHr3g)
