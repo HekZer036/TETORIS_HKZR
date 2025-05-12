@@ -4,7 +4,7 @@
 
 This Game is a Tetris-like game i made in C for a school project. it based on the TETORIS song by 柊マグネタイト. i love it so i made my game based on this. Enjoy !
 
-[Click Here](https://www.youtube.com/watch?v=3LIri5EZoY4) to see a video of the game. (video is in french, but it's just globally says the controls)
+[Click Here](https://www.youtube.com/watch?v=3LIri5EZoY4) to see a video of the game. (video is in french, but it's just globally saying the controls)
 
 # Build it (Linux or MSYS2 on Windows)
 
