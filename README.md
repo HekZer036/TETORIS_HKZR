@@ -6,9 +6,11 @@ This Game is a Tetris-like game i made in C for a school project. it based on th
 
 [Click Here](https://www.youtube.com/watch?v=3LIri5EZoY4) to see a video of the game. (video is in french, but it's just globally saying the controls)
 
-# Build it (Linux or MSYS2 on Windows)
+# Build it (Linux or [MSYS2 on Windows](https://objects.githubusercontent.com/github-production-release-asset-2e65be/80988227/a3239d91-fc08-46f0-805e-db6d76379532?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=releaseassetproduction%2F20250512%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250512T135721Z&X-Amz-Expires=300&X-Amz-Signature=8359191500695e980212b07cc949cfa66b1c1e2dd43a6bb678855a35176a6a69&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%3Dmsys2-x86_64-20250221.exe&response-content-type=application%2Foctet-stream))
 
-To build it yourself just run ``` ./compil.sh ``` it will autocompile itself into 'tetoris' or 'teroris.exe' (linux or windows (MSYS2))
+To build it yourself just run ``` ./compil.sh ``` it will autocompile itself into 'tetoris' (On linux) and then just do ``` ./tetoris ```.
+
+NOTE: For Windows, i suggest you just launch the pre-existing executable as it's a mess to build.
 
 # Run
 
