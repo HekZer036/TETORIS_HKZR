@@ -1,4 +1,4 @@
-gcc -o tetoris Prod.c -lSDL2 -lSDL2_ttf -lSDL2_mixer -lSDL2_image
+gcc -o tetoris backup_Prod.c -lSDL2 -lSDL2_ttf -lSDL2_mixer -lSDL2_image
 
 ./tetoris
 
