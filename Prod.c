@@ -605,7 +605,7 @@ int main(int argc, char *argv[])
     lastFrameTime = SDL_GetTicks();
     dropTime = 0;
 
-    emscripten_set_main_loop(main_loop, 60, 1);
+    emscripten_set_main_loop(main_loop, 0, 1);
 
     return 0;
 }
