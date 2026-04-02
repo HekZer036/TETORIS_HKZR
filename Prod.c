@@ -6,10 +6,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-
-#ifdef __EMSCRIPTEN__
 #include <emscripten.h>
-#endif
 
 #define SCREEN_WIDTH 300
 #define SCREEN_HEIGHT 600
@@ -75,7 +72,7 @@ tetoris currenttetoris;
 GameState gameState;
 SDL_Event event;
 int dropTime = 0;
-int dropInterval = 1500;
+int dropInterval = 500;
 Uint32 lastFrameTime;
 
 // Declarations
@@ -100,7 +97,7 @@ void showMenu(SDL_Renderer *renderer, TTF_Font *font);
 SDL_Texture *backgroundFrames[FRAME_COUNT];
 SDL_Texture *blockTextures[7];
 int currentFrame = 0;
-int frameDelay = 100;
+int frameDelay = 75;
 int frameTime = 0;
 
 void inittetoris(tetoris *tetoris)
@@ -369,8 +366,7 @@ void showMenu(SDL_Renderer *renderer, TTF_Font *font)
     SDL_SetRenderDrawColor(renderer, 0, 0, 0, 255);
     SDL_RenderClear(renderer);
     renderText(renderer, font, "Menu", SCREEN_WIDTH / 2 - 30, SCREEN_HEIGHT / 2 - 40);
-    renderText(renderer, font, "q - quit", SCREEN_WIDTH / 2 - 50, SCREEN_HEIGHT / 2);
-    renderText(renderer, font, "r - restart", SCREEN_WIDTH / 2 - 60, SCREEN_HEIGHT / 2 + 30);
+    renderText(renderer, font, "r - restart", SCREEN_WIDTH / 2 - 50, SCREEN_HEIGHT / 2);
     SDL_RenderPresent(renderer);
 }
 
@@ -402,9 +398,7 @@ void main_loop()
 {
     if (gameState != GAME_RUNNING)
     {
-#ifdef __EMSCRIPTEN__
         emscripten_cancel_main_loop();
-#endif
         cleanup();
         return;
     }
@@ -611,13 +605,7 @@ int main(int argc, char *argv[])
     lastFrameTime = SDL_GetTicks();
     dropTime = 0;
 
-#ifdef __EMSCRIPTEN__
-    emscripten_set_main_loop(main_loop, 120, 1);
-#else
-    while (gameState == GAME_RUNNING)
-        main_loop();
-    cleanup();
-#endif
+    emscripten_set_main_loop(main_loop, 60, 1);
 
     return 0;
 }

@@ -10,7 +10,7 @@ This Game is a Tetris-like game i made in C for a school project. it based on th
 
 To build it yourself just run ``` ./compil.sh ``` it will autocompile itself into 'tetoris' (On linux) and then just do ``` ./tetoris ```.
 
-NOTE: For Windows, i suggest you just launch the pre-existing executable as it's a mess to build.
+NOTE: For Windows, i suggest you just launch the pre-existing executable as it's kind of a mess to build.
 
 # Run
 
